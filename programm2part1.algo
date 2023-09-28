@@ -1,14 +1,17 @@
 ALGORITHM Dot_product
+// this is the declaration section
 VAR
 matrix_v1 : ARRAY_OF INTEGER[3][1];
 matrix_v2 :ARRAY_OF INTEGER[3][1];
 ps ,i,m,j: INTEGER;
+// this is the procedure dot_product
 Procedure dot_product(v1, v2, ps)
  ps:= 0
     For i from 1 to Length(v1) Do
         ps:= ps + v1[i] * v2[i]
     End For
 End Procedure
+// this is the BEGIN section 
 BEGIN
     For j from 1 to m Do
         Read v1[i]

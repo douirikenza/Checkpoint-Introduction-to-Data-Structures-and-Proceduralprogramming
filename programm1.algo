@@ -1,8 +1,9 @@
 ALGORITHM algorithm_sum
+// this is the declartion section
 VAR
     t1,t2,t3 : ARRAY_OF type INTEGER[50];
     i,j,x,s: INTEGER ;
-   
+//    this is the BEGIN section 
 BEGIN
     for i from 0 to length(t1)-1 do
     for j from 0 to length(t1)-1 do 

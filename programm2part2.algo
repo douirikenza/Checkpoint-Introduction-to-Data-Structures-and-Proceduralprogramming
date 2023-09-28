@@ -1,9 +1,10 @@
 ALGORITHM Dot_product
+// this is the declaration section
 VAR
 matrix_v1 : ARRAY_OF INTEGER[3][1];
 matrix_v2 :ARRAY_OF INTEGER[3][1];
 ps,i,n,j=INTEGER;
-
+// this is the FUNCTION dot_product
 Function dot_product(v1, v2)
     ps:=0
     For i from 1 to Length(v1) Do
@@ -11,6 +12,7 @@ Function dot_product(v1, v2)
     End For
     Return ps
 End Function
+// this is the BEGIN section 
 BEGIN
     For j from 1 to n Do
         Read v1[i]
